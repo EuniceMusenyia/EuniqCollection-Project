@@ -1,0 +1,53 @@
+body{
+    /* background-image: url(Images/clothes.jpg) */
+
+}
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.searchButton{
+    padding: 1% 5%;
+    border-radius: 5px;
+    /* margin-left: 20%; */
+    /* margin-bottom: 2%; */
+}
+.navButton{
+    gap: 0%;
+}
+.button2{
+    padding: 1% 35%
+}
+.navButon{
+    border: solid;
+    background-color: black;
+}
+.sec1{
+  background-repeat: no-repeat;
+  background-color: blueviolet;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+    
+}
+img{
+   animation:   infinite;
+  
+}
+#fashion{
+    margin: 5%;
+    padding: 30px 80px;
+}
+#shop{
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
